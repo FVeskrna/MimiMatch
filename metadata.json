@@ -1,0 +1,5 @@
+{
+  "name": "MimiMatch",
+  "description": "A high-fidelity baby name discovery app with a tinder-style swipe interface, helping Czech parents find the perfect name for their newborn.",
+  "requestFramePermissions": []
+}
