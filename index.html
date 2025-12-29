@@ -1,14 +1,16 @@
-
 <!DOCTYPE html>
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>MimiMatch</title>
+    
     <script src="https://cdn.tailwindcss.com"></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -17,7 +19,7 @@
         .font-classic { font-family: 'PT Serif', serif; }
         .font-handwritten { font-family: 'Dancing Script', cursive; }
         
-        /* Smooth transitions for card swipes */
+        /* Animace pro swipování karet */
         .card-exit-left {
             transform: translateX(-150%) rotate(-20deg);
             opacity: 0;
@@ -38,18 +40,10 @@
             transition: all 0.3s ease-out;
         }
     </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
-  }
-}
-</script>
+  <script type="module" crossorigin src="/assets/index-gmYB9TCy.js"></script>
 </head>
 <body class="bg-slate-50 overflow-hidden">
     <div id="root"></div>
+
 </body>
 </html>
